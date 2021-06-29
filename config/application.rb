@@ -16,5 +16,7 @@ module TwoWaysSms
     # -- all .rb files in that directory are automatically loaded.
     config.eager_load_paths << "#{Rails.root}/lib"
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
+
+    # Just write something
   end
 end
